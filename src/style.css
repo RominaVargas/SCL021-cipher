@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    background: rgb(231,206,227);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    justify-content: center;
+  }
+
+  #titulo {
+    padding: 10px;
+    background-color: rgba(209, 145, 185, 0.96);
+    background-size: 30px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  #subTitulo {
+    width: 200px;
+    height: 50px;
+    background: #b66f8bcd;
+    color: white;
+    vertical-align:middle;
+  }
+
+  #txtMensajeEncriptado {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding: 0 10px 10px;
+    color: #292b36;
+  }
+
+  #txtMensaje {
+    height: 80px;
+    align-content: center;
+    padding: 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    color: #292b36;
+  }
+  
+  #txtMensaje2 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding: 0 10px 10px;
+    color: #292b36;
+  }
+  
+  #btnCifrar {
+    background-color:#d6a8cd;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #btnDescifrar {
+    background-color:#d6a8cd;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #mensaje {
+    text-align: center;
+  }
+
+  .container {
+   display: flex; 
+   justify-content: left;
+  }
+
+  .card {
+  background: rgba(209, 145, 184, 0.842);  
+  width: 220px;
+  height: 220px;  
+  margin: 10px;
+  border-radius: 10px;
+  }

@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
+  <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Habla Conmigo</title>
     <link rel="stylesheet" href="style.css" />
+  
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div>
+      <h1 id=titulo> Chatea Conmigo</h1>
     </div>
-    <script src="index.js" type="module"></script>
+
+    <h3 id="subTitulo"> Codifica tu mensaje:</h3>
+    <h3>Habla conmigo:</h3>
+    <p> Elige cuánto desplazamiento quieres para cifrar tu mensaje:</p>
+    <input type="number" id="offset" value="" />
+    
+    <section class="container">
+      <div id="cifrado1" class="card">
+        <h3 id="mensaje">Escribe tu mensaje:</h3>
+        <input type="text" id="txtMensaje" />
+        <br>
+        <button type="button" id="btnCifrar">Cifrar</button>
+      </div>
+     
+      <div id="cifrado2" class="card">
+        <h3 id="mensaje">Mensaje cifrado:</h3>
+         <input type="text" id="txtMensajeEncriptado">
+        <br>
+      </div>
+   
+      <div id="cifrado3" class="card">
+        <h3 id="mensaje">Revela tu mensaje:</h3>
+        <input type="text" id="txtMensaje2" />
+        <br>
+        <button type="button" id="btnDescifrar">Descifrar</button>
+      </div>
+    </section>
+      
+        <script src="index.js" type="module"></script>
+        <script src="cipher.js" type="module"></script>
   </body>
 </html>
+
