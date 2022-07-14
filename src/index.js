@@ -17,7 +17,7 @@ function onClickDescifrar (){
    console.log (txtDescencriptado)
 
 }
-function onKeypress (event){ 
+function onKeypress (){ 
 
     const txtMensaje = document.getElementById("txtMensaje");
     txtMensaje.value=txtMensaje.value.toUpperCase()

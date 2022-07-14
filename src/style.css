@@ -10,23 +10,36 @@ html, body {
   }
 
   #titulo {
+    width: 400px;
+    height: 50px;
     padding: 10px;
+    margin: 10 auto;
     background-color: rgba(209, 145, 185, 0.96);
     background-size: 30px;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    vertical-align:center;
+    justify-content: center;
+    align-content: left;
+    display: flex;
   }
 
   #subTitulo {
     width: 200px;
-    height: 50px;
+    height: 30px;
+    border-radius: 5px;
     background: #b66f8bcd;
     color: white;
-    vertical-align:middle;
+    margin: 10 auto;
+    vertical-align:center;
+    justify-content: middle;
+    align-content: middle;
+    display: flex;
   }
 
   #txtMensajeEncriptado {
     height: 80px;
+    width: 250px;
     display: flex;
     justify-content: center;
     margin:auto;
@@ -36,6 +49,7 @@ html, body {
 
   #txtMensaje {
     height: 80px;
+    width: 250px;
     align-content: center;
     padding: 0 10px 10px;
     display: flex;
@@ -46,6 +60,7 @@ html, body {
   
   #txtMensaje2 {
     height: 80px;
+    width: 250px;
     display: flex;
     justify-content: center;
     margin:auto;
@@ -75,7 +90,13 @@ html, body {
     margin: auto;
   }
 
-  #mensaje {
+  #mensaje1 {
+    text-align: center;
+  }
+  #mensaje2 {
+    text-align: center;
+  }
+  #mensaje3 {
     text-align: center;
   }
 
@@ -86,8 +107,27 @@ html, body {
 
   .card {
   background: rgba(209, 145, 184, 0.842);  
-  width: 220px;
+  width: 300px;
   height: 220px;  
   margin: 10px;
   border-radius: 10px;
+  }
+  
+  #footer {
+    display:table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; 
   }

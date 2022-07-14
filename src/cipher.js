@@ -7,14 +7,15 @@ offset = (offset % 26 + 26) % 26;
    
     for (let i = 0; i < txtMensaje.length; i++) {
       let ascii = txtMensaje.charCodeAt(i);
+      //console.log(ascii)
       if (ascii >=65 && ascii <= 90) {
       let asciiModificado = (ascii - 65 + offset) % 26 + 65;
       resultado = resultado + String.fromCharCode(asciiModificado);
-    }
-         if (ascii === 32){
-     resultado += " ";
-          }
-    }
+     }
+       else {
+       resultado = resultado + String.fromCharCode(ascii); 
+       }
+     }
     return resultado;
   },
 
@@ -30,9 +31,9 @@ offset = (offset % 26 + 26) % 26;
         // console.log(String.fromCharCode(asciiModificado))
         resultado = resultado + String.fromCharCode(asciiModificado);
       }
-      if (ascii === 32){
-        resultado += " ";
-      }
+      else {
+        resultado = resultado + String.fromCharCode(ascii); 
+        }
     }
     return resultado;
   }
